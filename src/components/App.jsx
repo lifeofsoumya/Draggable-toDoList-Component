@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import Draggable from "react-draggable";
 import "./styles.css"
 
@@ -68,7 +68,7 @@ function App() {
     isDrag ? 
     <Draggable>
       <div className="container">
-      <p class="drag" title="Make undraggable" onClick={toggleDrag} >📎</p>
+      <p class="drag" title="Make undraggable" onClick={toggleDrag} ><span role="img"> 📎 </span></p>
         <div className="heading">
           <h1>To-Do List</h1>
         </div>
@@ -104,7 +104,7 @@ function App() {
 
     : 
     <div className="container">
-        <p class="drag" title="Make Draggable" onClick={toggleDrag}> 📎 </p>
+        <p class="drag" title="Make Draggable" onClick={toggleDrag}><span role="img"> 📎 </span></p>
         <div className="heading">
           <h1>To-Do List</h1>
         </div>
