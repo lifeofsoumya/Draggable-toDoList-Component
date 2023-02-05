@@ -1,3 +1,9 @@
 .codesandbox
+
 .env
+
 node_modules
+
+/build
+
+build

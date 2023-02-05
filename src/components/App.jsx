@@ -111,7 +111,7 @@ function App() {
         <div className="form">
           <input
             id="ip"
-            // autoFocus
+            autoFocus
             onChange={handleChange}
             onKeyDown={handleSubmit}
             type="text"
